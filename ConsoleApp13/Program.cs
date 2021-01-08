@@ -24,7 +24,7 @@ namespace ConsoleApp13
                 }
             }
             int end1 = 1, end2 = 1, end3 = 1, end4 = 1;
-            for (int t = 0; t < 1256765432; t++)
+            while(true)
             {
                 
                
