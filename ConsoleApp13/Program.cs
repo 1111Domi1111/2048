@@ -48,6 +48,7 @@ namespace ConsoleApp13
                 //int l = int.Parse(Console.ReadLine());
                 if (cki.Key== ConsoleKey.LeftArrow)
                 {
+                    end1 = 0;
                     for (int w = 0; w < 4; w++)
                     {
                         int k = 1;
@@ -76,10 +77,7 @@ namespace ConsoleApp13
                                         end1++;
 
                                     }
-                                    else
-                                    {
-                                        end1 = 0;
-                                    }
+                                    
                                 }
                                
                             }
@@ -89,6 +87,9 @@ namespace ConsoleApp13
                 }
                 else if (cki.Key == ConsoleKey.RightArrow)
                 {
+                     
+                   end2 = 0;
+                    
                     for (int w = 0; w < 4; w++)
                     {
                         int k = 2;
@@ -115,10 +116,7 @@ namespace ConsoleApp13
                                         j++;
                                         end2++;
                                     }
-                                     else
-                                    {
-                                        end2 = 0;
-                                    }
+                                   
                                     
                                 }
                                
@@ -129,7 +127,7 @@ namespace ConsoleApp13
                 }
                 else if (cki.Key == ConsoleKey.UpArrow)
                 {
-
+                    end3 = 0;
 
                     for (int w = 0; w < 4; w++)
                     {
@@ -157,10 +155,9 @@ namespace ConsoleApp13
                                         j--;
                                         end3++;
                                     }
-                                    else
-                                    {
-                                        end3 = 0;
-                                    }
+                                   
+                                       
+                                    
                                 }
                                 
                             }
@@ -170,6 +167,7 @@ namespace ConsoleApp13
                 }
                 else if(cki.Key == ConsoleKey.DownArrow)
                 {
+                    end4 = 0;
                     for (int w = 0; w < 4; w++)
                     {
                         int o = 2;
@@ -196,10 +194,7 @@ namespace ConsoleApp13
                                         j++;
                                         end4++;
                                     }
-                                    else
-                                    {
-                                        end4 = 0;
-                                    }
+                                    
                                 }
                                 
                             }
